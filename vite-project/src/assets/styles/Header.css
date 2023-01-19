@@ -1,0 +1,41 @@
+#head {
+    /* border: 3px rgb(73, 13, 68) solid; */
+    display: flex;
+    justify-content:space-between;
+    padding: 0 10px;
+    background-color: rgba(5, 180, 255, 1);
+    color: aliceblue;
+    font-family: roboto,'Courier New', Courier, monospace;
+}
+#flex-img{
+    
+    justify-content:flex-start;
+}
+#yo{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+}
+#nombre{
+    flex-direction: column;
+    font-size: 30px;
+}
+p{
+    font-size: 80px;
+    color:blueviolet;
+}
+#exper{
+    display: flex;
+    justify-content: space-between;
+}
+#contacto{
+    font-size: 30px;
+    flex-direction: column;
+     border: 3px rgb(73, 13, 68) solid; 
+     justify-content: space-evenly;
+}
+#about {
+    font-size: 30px;
+    text-align-last: center;
+    /* border: 3px rgb(73, 13, 68) solid; */
+}
