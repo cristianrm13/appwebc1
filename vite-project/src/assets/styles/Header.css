@@ -5,23 +5,32 @@
     padding: 0 10px;
     background-color: rgba(5, 180, 255, 1);
     color: aliceblue;
-    font-family: roboto,'Courier New', Courier, monospace;
+}
+h1{
+    font-family: 'roboto', 'Courier New', Courier, monospace;
+    font-size: 17px;
 }
 #flex-img{
-    
+
     justify-content:flex-start;
 }
 #yo{
-    width: 400px;
-    height: 400px;
+    width: 100px;
+    height: 100px;
     border-radius: 100%;
+}
+#uni{
+        padding: 0 5px;
+        width: 70%px;
+        height: 180px;
+        border-radius: 10%;
 }
 #nombre{
     flex-direction: column;
-    font-size: 30px;
+    font-size:14px;
 }
 p{
-    font-size: 80px;
+    font-size: 20px;
     color:blueviolet;
 }
 #exper{
@@ -29,13 +38,38 @@ p{
     justify-content: space-between;
 }
 #contacto{
-    font-size: 30px;
+    padding: 2%;
     flex-direction: column;
-     border: 3px rgb(73, 13, 68) solid; 
      justify-content: space-evenly;
+    background-color: rgba(120, 95, 145, 0.411);
 }
 #about {
-    font-size: 30px;
+    padding: 2%;
     text-align-last: center;
     /* border: 3px rgb(73, 13, 68) solid; */
+}
+.cuad{
+    margin-top: 0.5%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:center;
+}
+.color{
+    background-color: rgba(120, 95, 145, 0.411);
+    padding: 0 7%;
+}
+.habilidad{
+    margin-top: 0.2%;
+    display: flex;
+    background-color: rgba(120, 95, 145, 0.411);
+    padding: 0 10px;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.habil{
+    margin-top: 0%;
+    /* border: 3px rgb(73, 13, 68) solid; */
+    padding: 0 9px;
+    justify-content: space-evenly;
+    background-color: rgba(129, 171, 218, 0.411);
 }
