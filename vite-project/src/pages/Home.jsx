@@ -4,6 +4,7 @@ import Header from "../Components/atoms/Header";
 import Experiencia from "../Components/atoms/Experiencia";
 import Estudios from "../Components/atoms/Estudios";
 import Habilidades from "../Components/atoms/Habilidades";
+import Footer from "../Components/atoms/Footer";
 /* import ListStudent from "../components/molecules/ListStudent"; */
 
 function Home(){
@@ -31,6 +32,7 @@ function Home(){
         <Experiencia/>
         <Estudios/>
         <Habilidades/>
+        <Footer/>
         {/* <Flex/>
         <ListStudent listStudent={listStudent}></ListStudent> */}
         {/* <Link to="/Login">Iniciar Sesion</Link> */}

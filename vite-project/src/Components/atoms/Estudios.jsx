@@ -1,3 +1,4 @@
+import {data} from "../../../src/data/data"
 import Uni from '../../assets/img/uni.jpg'
 
 function Estudios() {
@@ -5,11 +6,11 @@ function Estudios() {
         <div className='cuad'>
             <div className='color'>
                 <p>Estudios</p>
-                <h1>* Jardin de niños Jaime Sabinez</h1>
-                <h1>* Primaria Hermenegildo galeana</h1>
-                <h1>* Secundaria Tecnica #34 Miguel Lara Vazallos</h1>
-                <h1>* Preparatoria Cecyte 09</h1>
-                <h1>* Universidad Politecnica de Chiapas</h1>
+                <h1>* {data.estudios.institucion1}</h1>
+                <h1>* {data.estudios.institucion2}</h1>
+                <h1>* {data.estudios.institucion3}</h1>
+                <h1>* {data.estudios.institucion4}</h1>
+                <h1>* {data.estudios.institucion5}</h1>
             </div>
 
             <div className='cuad'>
@@ -18,8 +19,8 @@ function Estudios() {
             
             <div className='color'>
               <p>Idiomas</p>
-              <h1>* Español 100%</h1>
-              <h1>* Ingles 80%</h1>
+              <h1>* {data.languages.Español}</h1>
+              <h1>* {data.languages.Ingles}</h1>
             </div>
         </div>
      );

@@ -8,7 +8,8 @@ export const data = {
         "institucion1": "Jardin de niños Jaime Sabinez Gutierrez",
         "institucion2": "Primaria Hermenegildo Galeana",
         "institucion3": "Secundaria Tecnica #34 Miguel Lara",
-        "institucion4": "Preparatoria Cecyte 09"
+        "institucion4": "Preparatoria Cecyte 09",
+        "institucion5": "Universidad Politecnica d Chiapas"
       },
   
     languages: 
@@ -23,6 +24,13 @@ export const data = {
         "habil2":"programacion javascript",
         "habil3":"Trabajo en equipo",
         "habil4":"administracion de documentacion"
+      },
+      aficiones:{
+        "af1":"Escuchar musica",
+        "af2":"Viajar",
+        "af3":"Programar",
+        "af4":"Juegos de Azar",
+        "af5":"Dibujar"
       }
     
 
